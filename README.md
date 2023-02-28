@@ -24,7 +24,7 @@
 ## Overview
 
 
-![screenshot](https://github.com/mahmoudzin/dwaa-admin/blob/masterbranch/main.png)
+![screenshot](https://github.com/mahmoudzin/dwaa-admin/blob/main/main.png)
 
 ## Install
 

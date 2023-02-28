@@ -3,7 +3,7 @@ import { Create } from './Create';
 import { IErrorValidation } from '../../helpers/validation';
 import updateLogic from '../../HOCS/updateLogic';
 import { validationObject } from '../../interfaces/ISubCategory';
-import { categoryRepositary } from '../../store/category/index';
+import { supCategoryRepositary } from './../../store/subcategory/index';
 
 
 interface PropsType {
@@ -20,4 +20,4 @@ const Update = ({item, setItem, handleFocus, handleBlur, handleChange, errors}:P
     return <Create {...{item, setItem, handleFocus, handleBlur,handleChange, errors}}/>
 };
 
-export default updateLogic(Update, validationObject, categoryRepositary);
+export default updateLogic(Update, validationObject, supCategoryRepositary);

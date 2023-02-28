@@ -1,7 +1,6 @@
 import {createSlice } from '@reduxjs/toolkit'
 import {SubCategoryState} from '../../helpers/types'
 import { RootState } from '..';
-import { toast } from 'react-hot-toast';
 import repositary from './../ApiMethodsGeneric';
 import { returnError } from '../../helpers/validation';
 
